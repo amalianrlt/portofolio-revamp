@@ -18,20 +18,28 @@ A clean, responsive, and interactive portfolio website to showcase my projects, 
 
 ## 📁 Project Structure
 
+```
 portfolio-revamp/
-├── public/              # Static assets
+├── public/ # Static assets
 ├── src/
-│   ├── assets/          # Images, logos, etc.
-│   ├── components/      # Reusable Vue components
-│   ├── views/           # Main page views (Home, About, Projects, Contact)
-│   ├── router/          # Vue Router setup
-│   └── main.ts          # Entry point
+│ ├── assets/ # Images, logos, etc.
+│ ├── components/ # Reusable Vue components
+│ ├── views/ # Main page views (Home, About, Projects, Contact)
+│ ├── router/ # Vue Router setup
+│ └── main.ts # Entry point
 ├── index.html
 ├── vite.config.ts
 └── README.md
 
+```
+
+## 🛠️ Getting Started
+
+To run the project locally:
+
+```bash
 # Clone the repository
-git clone https://github.com/yourusername/portfolio-revamp.git
+git clone https://github.com/amalianrlt/portfolio-revamp.git
 
 # Navigate into the directory
 cd portfolio-revamp
@@ -41,4 +49,3 @@ npm install
 
 # Start development server
 npm run dev
-
