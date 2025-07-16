@@ -7,6 +7,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '', // Add empty base to make all asset URLs relative
   plugins: [
     vue(),
     vueJsx(),

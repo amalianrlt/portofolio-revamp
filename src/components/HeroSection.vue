@@ -1,5 +1,12 @@
 <script setup lang="ts">
 // Hero section component
+// Import images
+import curvedLineImg from '@/assets/images/curved-line.svg';
+import linkedinIcon from '@/assets/images/linkedin-icon.svg';
+import githubIcon from '@/assets/images/github-icon.svg';
+import instagramIcon from '@/assets/images/instagram-icon.svg';
+import halfCircleImg from '@/assets/images/half-circle.svg';
+import profileImg from '@/assets/images/profile-image.png';
 </script>
 
 <template>
@@ -8,19 +15,19 @@
       <div class="hero-content-title">
         <h1 class="hero-subtitle">Hello, i'm</h1>
         <h1 class="hero-title">Amalia</h1>
-        <img src="@/assets/images/curved-line.svg" alt="Curved Icon" class="hero-curved-icon" />
+        <img :src="curvedLineImg" alt="Curved Icon" class="hero-curved-icon" />
       </div>
 
       <div class="hero-content-social">
         <div class="hero-social">
           <a href="https://linkedin.com" target="_blank" class="hero-social-icon">
-            <img src="@/assets/images/linkedin-icon.svg" alt="LinkedIn" />
+            <img :src="linkedinIcon" alt="LinkedIn" />
           </a>
           <a href="https://github.com" target="_blank" class="hero-social-icon">
-            <img src="@/assets/images/github-icon.svg" alt="GitHub" />
+            <img :src="githubIcon" alt="GitHub" />
           </a>
           <a href="https://instagram.com" target="_blank" class="hero-social-icon">
-            <img src="@/assets/images/instagram-icon.svg" alt="Instagram" />
+            <img :src="instagramIcon" alt="Instagram" />
           </a>
         </div>
         <div class="hero-stats">
@@ -46,8 +53,8 @@
         </p>
       </div>
       <div class="hero-image-container">
-        <img src="@/assets/images/half-circle.svg" alt="Background shape" class="half-circle-bg" />
-        <img src="@/assets/images/profile-image.png" alt="Amalia Nurlita" class="hero-image" />
+        <img :src="halfCircleImg" alt="Background shape" class="half-circle-bg" />
+        <img :src="profileImg" alt="Amalia Nurlita" class="hero-image" />
       </div>
     </div>
   </section>

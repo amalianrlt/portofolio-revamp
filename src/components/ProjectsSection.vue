@@ -1,5 +1,10 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted, computed } from 'vue';
+// Use relative paths for image imports
+import designSystemImg from '@/assets/images/projects/design-system.png';
+import forrestImg from '@/assets/images/projects/forrest.png';
+import protraImg from '@/assets/images/projects/protra.png';
+import portfolioImg from '@/assets/images/projects/portfolio.png';
 
 // Projects data with image paths
 const projects = [
@@ -7,7 +12,7 @@ const projects = [
     id: 1,
     title: 'Design System',
     description: 'Built and developed a centralized design system using Storybook to maintain UI consistency and scalability across the Catalogue app. This initiative ensured a unified look and feel across platforms, streamlined development workflows, and served as the foundation for reusable components in future Vouch products.',
-    image: '/src/assets/images/projects/design-system.png',
+    image: designSystemImg,
     tags: ['Vue.js', 'TypeScript', 'Tailwind', 'Sass', 'Storybook', 'Chromatic', 'Jest', 'Chai', 'Vue Demi'],
     demoLink: '#',
     sourceLink: '#'
@@ -16,7 +21,7 @@ const projects = [
     id: 2,
     title: 'Forrest – Photobooth Booking App',
     description: 'Developed a user-friendly booking system for photobooth services, enabling customers to easily schedule and manage reservations. Focused on creating a seamless and intuitive experience to simplify the booking process and improve customer satisfaction.',
-    image: '/src/assets/images/projects/forrest.png',
+    image: forrestImg,
     tags: ['React', 'JavaScript', 'SCSS', 'Node.js', 'Express', 'MongoDB'],
     demoLink: '#',
     sourceLink: '#'
@@ -25,7 +30,7 @@ const projects = [
     id: 3,
     title: 'Protra App - Glints Academy Bootcamp Project',
     description: 'Protra is another popular project management app offering the feature of project time tracking. This app gathers information on your team\'s work in the form of activity reports. That\'s a great way to analyze your team\'s performance and work progress.',
-    image: '/src/assets/images/projects/protra.png',
+    image: protraImg,
     tags: ['React', 'JavaScript', 'SCSS', 'Node.js', 'Express', 'MongoDB'],
     demoLink: '#',
     sourceLink: '#'
@@ -34,7 +39,7 @@ const projects = [
     id: 4,
     title: 'Portfolio Website',
     description: 'A clean and static portfolio website to showcase projects and skills. This website is built with React, JavaScript, SCSS, and it is hosted on Netlify. It features responsive design and smooth navigation to provide an engaging user experience across all devices.',
-    image: '/src/assets/images/projects/portfolio.png',
+    image: portfolioImg,
     tags: ['React', 'JavaScript', 'SCSS', 'Netlify'],
     demoLink: '#',
     sourceLink: '#'
