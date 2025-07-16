@@ -12,10 +12,11 @@ A clean, responsive, and interactive portfolio website to showcase my projects, 
 
 ## 🚀 Tech Stack
 
-```bash
-Frontend     : Vue.js, TypeScript  
-Build Tool   : Vite  
-Deployment   : Netlify  
+- **Frontend**: Vue.js, TypeScript  
+- **Build Tool**: Vite  
+- **Deployment**: Netlify  
+
+## 📁 Project Structure
 
 portfolio-revamp/
 ├── public/              # Static assets
